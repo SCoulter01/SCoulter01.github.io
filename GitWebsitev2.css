@@ -1,0 +1,34 @@
+
+h1{
+    position: sticky;
+    top: 5px;
+}
+
+h2{
+    position: absolute;
+    top: 22.5px;
+    right: 10px;
+}
+
+body{
+    background: powderblue;
+}
+
+#Paragraph1{
+    padding: 2em;
+     margin: 5% auto;
+    font-family: monospace;
+    background: rgb(110, 0, 175);
+}
+
+.Paragraph2{
+    padding: 2em;
+    margin: 10% auto;
+    font-family: monospace;
+    background: rgb(110, 0, 175);
+}
+
+p{
+    padding: 2em;
+    font-family: courier;
+}
