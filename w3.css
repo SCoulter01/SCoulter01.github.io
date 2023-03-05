@@ -1,0 +1,31 @@
+header{
+	background-color: lightcyan;
+	height: 35px;
+}
+
+header:hover{
+	background-color: lightcyan;
+	filter: blur(2.5px);
+}
+
+body{
+	background: lightsteelblue;
+	font-family:monospace;
+}
+
+
+.p1{
+	font-family: fantasy;
+	background-color: lightcyan;
+	padding: 20px;
+	margin: 50px;
+	border: 7px inset whitesmoke;
+}
+
+.p2{
+	font-family: unset;
+	padding: 20px;
+	background-color: lightcoral;
+	margin: 50px;
+	border: 7px inset whitesmoke;
+}
