@@ -1,0 +1,22 @@
+#container {
+  display: grid;
+  grid: repeat(2, 120px) / auto-flow 160px;
+}
+
+#container > div {
+  background-color: orange;
+  width: 100px;
+  height: 50px;
+}
+
+#container > div1 {
+  background-color: peachpuff;
+  width: auto;
+  height: auto;
+}
+
+#container > div2{
+  background-color: blue;
+  width: 100px;
+  height: auto;
+}
