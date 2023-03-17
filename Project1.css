@@ -2,10 +2,21 @@ body{
 	background-color: lightskyblue;
 }
 
+a{
+	background-color: coral;
+}
+
+a:hover{
+	background-color: lightcoral;
+}
 
 h1{
 	padding: 0.5em;
 	font-size: 25px;
+}
+
+p{
+	font-size: 20px;
 }
 
 #HRInfo{

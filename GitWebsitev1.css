@@ -4,6 +4,12 @@ body{
     font-family: serif;
 }
 
+div {
+    font-family: courier;
+    background: #76c9d4;
+    padding: 15px;
+    border: 4px solid  black;
+}
 
 h2{
     padding: 2em;
