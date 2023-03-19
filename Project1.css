@@ -1,32 +1,86 @@
 body{
-	background-color: #89A1EF;
+	background-color: #898BF0;
 }
 
-
+@media (any-hover: hover) {
 a:hover{
-	color: #2383E8;
+	font-weight: bold;
+	font-family: monospace;
+	color: #898BF0;
+	font-size: 15px;
+	}
 }
 
 a:visited{
-	color: green;
+	font-weight: bold;
+	font-family: monospace;
+	color: #898BF0;
 }
 
 h1{
 	padding: 0.5em;
 	font-size: 25px;
+	font-family: serif;
+}
+
+h2{
+	font-family: sans-serif;
+	display: grid;
+	text-align: left;
+
+}
+
+h3{
+	font-family: sans-serif;
+	font-style: bold;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#32CBFF;
+}
+
+li {
+	float: left;
+}
+
+li a{
+	font-family: monospace;
+	display: block;
+	text-align: left;
+	list-style:none;
+	padding: 10px;
+
 }
 
 p{
+	font-family: monospace;
 	display: grid;
 	text-align: left;
 	padding: 10px;
-	font-size: 20px;
+	font-size: 18px;
+}
+
+.SmallText{
+	font-size: 15px;
+	font-family: sans-serif;
+	padding: 0px;
+	font-weight: bold;
+}
+
+img{
+	width: 400px;
+	height: 400px;
+
 }
 
 #HRInfo{
-	text-align: center;
+	text-align: left;
 	font-weight: bold;
-	color: green;
+	color: black;
 
 }
 
