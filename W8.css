@@ -1,40 +1,36 @@
-.head{
+
+#Paragraph1{
+    padding: 15px;
+    border: 4px solid  black;
+    color:darkgreen;
     background-color: transparent;
     animation: 7.5s linear 0s infinite alternate bounce;
 }
 
 @keyframes bounce {
     from{
-        transform: translateX(-22.5vw);
-        color: #000000;
+        font-size: 20px;
+        transform: translateX(0vw);
         filter: hue-rotate(0deg);
     }
 
     to{
+        font-size: 25px;
         transform: translateX(100vw);
-        color: #C2A2FF;
-        filter: hue-rotate(240deg);
     }
 }
 
-
 body{
-    background: powderblue;
-    font-family: serif;
+    background-color: yellow;
+    font-family: cursive;
 }
 
 div {
     font-family: courier;
-    background: #76c9d4;
+    color: darkgreen;
     padding: 15px;
     border: 4px solid  black;
 }
-
-h2{
-    padding: 2em;
-    font-family: courier;
-}
-
 
 .shape{
     position: flex;
@@ -43,5 +39,3 @@ h2{
   background: red;
    animation: 7.5s linear 0s infinite alternate bounce;
 }
-
-

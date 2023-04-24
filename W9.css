@@ -1,0 +1,30 @@
+body {
+    background-color: hotpink;
+}
+
+h1{
+   font-family: courier;
+    color: darkblue;
+}
+
+p{
+    font-size: 20px;
+    color: darkblue;
+    font-weight: bold;
+    font-family: courier;
+}
+
+#P2{
+    margin: 5px;
+    font-size: 10px;
+    padding: 2.5px;
+    border: 2px solid black;
+    text-align: center;
+    border-spacing: 10px;
+}
+
+div{
+    padding: 20px;
+    border: 2px solid black;
+    text-align: center;
+}
