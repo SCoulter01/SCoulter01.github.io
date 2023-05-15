@@ -52,17 +52,29 @@ hr{
 
 }
 
-.row{
-	display: flex;
+.Group-1{
+	display: grid;
+	gap: 2.5%;
+	grid-template-rows: 0.25fr;
+	grid-template-columns: 0.33fr 0.33fr 0.33fr;
 }
 
-.column{
-	float: left;
-	width: 33.3%;
-	padding: 20px;
+.G1{
+	grid-row: 1;
+	grid-column: 1;
 }
 
-.column img{
+.G2{
+	grid-row: 1;
+	grid-column: 2;
+}
+
+.G3{
+	grid-row: 1;
+	grid-column: 3;
+}
+
+.G1 img{
 	object-fit: cover;
 	margin: 10px;
 	border-radius: 25px;
@@ -71,26 +83,143 @@ hr{
 	height: 100%;
 }
 
+.G2 img{
+	object-fit: cover;
+	margin: 10px;
+	border-radius: 25px;
+	border: 10px solid;
+	width: 100%;
+	height: 100%;
+}
+
+.G3 img{
+	object-fit: cover;
+	margin: 10px;
+	border-radius: 25px;
+	border: 10px solid;
+	width: 100%;
+	height: 100%;
+}
+
+
+.head{
+	padding: 20px;
+	display: grid;
+	grid-template-rows:0.5fr;
+	grid-template-columns:0.25fr 0.25fr 0.5fr;
+}
+
+
+
 /*change img here btw*/
 .left{
+	grid-row: 1;
+	grid-column: 1;
 	padding: 20px;
 	display: flex;
 	align-items: center;
 	height: auto;
 	width: auto;
+	margin: 15px;
+	background-color: black;
+	border:2.5px;
+	border-radius: 10px;
+	transform:translate(20px);
 }
 
 .left img{
+	background-color: black;
 	height: 400px;
 	width: 325px;
 	object-fit: cover;
-	margin: 30px;
 	border-radius: 25px;
-	transform:translate(40px);
+}
+
+.left img a:hover{
+	
 }
 
 .right {
-	display: flex;
+	grid-row: 1;
+	height: 250px;
+	grid-column: span 2;
+	border-radius: 50px;
 	font-size: 20px;
-	padding-bottom: 80px;
+	padding: 80px;
+}
+
+.Group-2{
+	padding: 20px;
+	display: grid;
+	grid-template-rows: 0.5fr;
+	grid-template-columns: 0.25fr 0.25fr 0.5fr;
+}
+
+.LG2{
+	grid-row: 1;
+	grid-column: 1;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	height: auto;
+	width: auto;
+	margin: 15px;
+	background-color: black;
+	border:2.5px;
+	border-radius: 10px;
+	transform:translate(20px);
+}
+
+.LG2 img{
+	background-color: blue;
+	height: 400px;
+	width: 325px;
+	object-fit: cover;
+	border-radius: 25px;
+}
+
+.RG2{
+	grid-row: 1;
+	grid-column: span 2;
+	border-radius: 25px;
+	font-size: 20px;
+	padding: 80px;
+}
+
+.Group-{3
+	padding: 20px;
+	display: grid;
+	grid-template-rows: 0.5fr;
+	grid-template-columns: 0.25fr 0.25fr 0.5fr;
+}
+
+.LG3{
+	grid-row: 1;
+	grid-column: 1;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	height: auto;
+	width: auto;
+	margin: 15px;
+	background-color: black;
+	border:2.5px;
+	border-radius: 10px;
+	transform:translate(20px);
+}
+
+.LG3 img{
+	background-color: blue;
+	height: 400px;
+	width: 325px;
+	object-fit: cover;
+	border-radius: 25px;
+}
+
+.RG3{
+	grid-row: 1;
+	grid-column: span 2;
+	border-radius: 25px;
+	font-size: 20px;
+	padding: 80px;
 }
